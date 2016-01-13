@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "http-server": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Vance",
+  "license": "ISC"
+}

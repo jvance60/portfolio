@@ -1,0 +1,78 @@
+body {
+  background-image: url(img/arches/arches.png);
+  color: #21466e;
+  max-width: 1080px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+/*Nav Links*/
+.navbar-default .navbar-nav>li>a{
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: #21466e;
+  margin-bottom: 0;
+}
+ .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+/*#cutoff {
+  position: relative;
+  width: 800px;
+}*/
+h1 small {
+  color: #21466e;
+}
+a {
+  color: #21466e;
+}
+.page-header {
+  text-align: center;
+}
+#logo {
+  position: relative;
+  top: -150px;
+  /*padding-right: 320px;*/
+}
+.container .img-responsive {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+.scroll, .outer-wrapper {
+ width: 800px;
+ height: 800px;
+}
+
+.outer-wrapper {
+ position: relative;
+ overflow: hidden;
+}
+
+.inner-wrapper {
+ position: absolute;
+ left: 0;
+ overflow-x: hidden;
+ overflow-y: scroll;
+ margin: 0 auto;
+}
+
+.inner-wrapper::-webkit-scrollbar {
+ display: none;
+}
